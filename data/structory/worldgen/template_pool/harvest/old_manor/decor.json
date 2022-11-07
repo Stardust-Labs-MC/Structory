@@ -1,0 +1,33 @@
+{
+  "name": "structory:harvest/old_manor/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/decor1",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/decor2",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/decor3",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

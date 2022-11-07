@@ -1,0 +1,51 @@
+{
+  "name": "structory:harvest/old_manor/cellars",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/cellar1",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/cellar2",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/cellar3",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/cellar4",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/cellar5",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

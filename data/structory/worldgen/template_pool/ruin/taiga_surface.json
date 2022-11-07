@@ -1,0 +1,78 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/arch1",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/bridge1",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/ruin1",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/ruin2",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/ruin3",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/tower1",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/tower2",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/taiga_surface/tower3",
+        "processors": "structory:ruin/taiga_underground",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

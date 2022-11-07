@@ -1,0 +1,132 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/castle1",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/castle2",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 4,
+      "element": {
+        "location": "structory:ruin/northern_ruins/circle_small",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 4,
+      "element": {
+        "location": "structory:ruin/northern_ruins/circle_tall",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/doorway",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/house1",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/house2",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/house3",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound_castle_small",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound_corner",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound_tabletwall",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound_watchtower",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound1",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "structory:ruin/northern_ruins/mound1",
+        "processors": "structory:ruin/northern",
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

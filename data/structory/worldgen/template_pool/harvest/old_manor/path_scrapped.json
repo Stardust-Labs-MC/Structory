@@ -1,0 +1,15 @@
+{
+  "name": "structory:harvest/old_manor/path",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 36,
+      "element": {
+        "location": "structory:harvest/old_manor/dirt_path",
+        "processors": "structory:harvest/old_manor/path",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

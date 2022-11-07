@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "structory",
+  "version": "1.0.1",
+  "name": "Structory",
+  "description": "Structory",
+  "authors": [
+    "BotanyDev & Starmute"
+  ],
+  "contact": {
+    "issues": "https://discord.gg/jfGMW8rEAa"
+  },
+  "license": "Stardust Labs License",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.7",
+    "fabric-api-base": "*",
+    "minecraft": ">=1.19"
+  }
+}

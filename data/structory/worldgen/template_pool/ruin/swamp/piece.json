@@ -1,0 +1,249 @@
+{
+  "name": "d",
+  "fallback": "structory:ruin/swamp/piece",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/fountain1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/frog_statue_small",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/frog_statue1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/frog_statue2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/obelisk1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pond1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pond2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pool_small1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pool1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pool2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pyramid1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ring1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ring2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ruin1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ruin2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ruin3",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/staircase1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/statue1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/t1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pillar1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/pool3",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ruin4",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/ruin5",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/table1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/table2",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+            {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/star1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    },
+    {
+      "weight": 17,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid",
+        "location": "structory:ruin/swamp/t1",
+        "processors": "structory:ruin/swamp_moss"
+      }
+    }
+  ]
+}

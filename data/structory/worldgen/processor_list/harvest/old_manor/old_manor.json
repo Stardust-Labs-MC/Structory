@@ -1,0 +1,1649 @@
+{
+    "processors": [
+
+
+
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:oak_wall_sign",
+                  "probability": 0.1
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_stained_glass",
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:cobweb"
+                  
+                }
+              }
+              ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_stained_glass",
+                  "probability": 0.1
+                },
+                "output_state": {
+                  "Name": "minecraft:glow_lichen",
+                  "Properties":{ "up": "true" }
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_stained_glass",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:hanging_roots"
+                  
+                }
+              }
+            ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_stained_glass",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:white_concrete",
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+          ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:white_concrete",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:smooth_stone_slab",
+                  "Properties":{ "type":"bottom" }
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:bricks",
+                  "probability": 0.50
+                },
+                "output_state": {
+                  "Name": "minecraft:granite"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:glass_pane",
+                  "probability": 0.5
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+            ]
+          },
+
+
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:gray_concrete",
+                  "probability": 0.5
+                },
+                "output_state": {
+                  "Name": "minecraft:mossy_cobblestone"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:gray_concrete",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:cobblestone"
+                  
+                }
+              }
+            ]
+          },
+
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:green_stained_glass",
+                  "probability": 0.1
+                },
+                "output_state": {
+                  "Name": "minecraft:glow_lichen",
+                  "Properties":{ "up": "true" }
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:green_stained_glass",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:hanging_roots"
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:green_stained_glass"
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:green_carpet",
+                  "probability": 0.02
+                },
+                "output_state": {
+                  "Name": "minecraft:glow_lichen",
+                  "Properties":{ "down": "true" }
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:green_carpet",
+                  "probability": 0.02
+                },
+                "output_state": {
+                  "Name": "minecraft:moss_carpet"
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:block_match",
+                  "block": "minecraft:green_carpet"
+                },
+                "output_state": {
+                  "Name": "minecraft:air"
+                  
+                }
+              }
+            ]
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:red_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:spruce_stairs",
+                  "Properties": {
+                    "facing": "east",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:red_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:spruce_stairs",
+                  "Properties": {
+                    "facing": "south",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+           ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:red_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:spruce_stairs",
+                  "Properties": {
+                    "facing": "north",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+           ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:red_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:spruce_stairs",
+                  "Properties": {
+                    "facing": "west",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+           ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:red_concrete",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:spruce_slab",
+                  "Properties": {
+                    "type": "top",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:dark_oak_stairs",
+                  "Properties": {
+                    "facing": "east",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:dark_oak_stairs",
+                  "Properties": {
+                    "facing": "south",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:dark_oak_stairs",
+                  "Properties": {
+                    "facing": "north",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:dark_oak_stairs",
+                  "Properties": {
+                    "facing": "west",
+                    "half": "bottom",
+                    "shape": "straight",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:orange_concrete",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:dark_oak_planks",
+                  "Properties": {
+                    "type": "top",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          },
+
+
+
+
+
+
+
+
+
+
+
+        
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:light_gray_glazed_terracotta",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  },
+                  "probability": 0.0625
+                },
+                "output_state": {
+                  "Name": "minecraft:loom",
+                  "Properties": {
+                    "facing": "west"
+                  }
+                }
+              }
+            ,
+         
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:light_gray_glazed_terracotta",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "probability": 0.0625
+                },
+                "output_state": {
+                  "Name": "minecraft:loom",
+                  "Properties": {
+                    "facing": "north"
+                  }
+                }
+              }
+           ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:light_gray_glazed_terracotta",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  },
+                  "probability": 0.0625
+                },
+                "output_state": {
+                  "Name": "minecraft:loom",
+                  "Properties": {
+                    "facing": "east"
+                  }
+                }
+              }
+           ,
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:light_gray_glazed_terracotta",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  },
+                  "probability": 0.0625
+                },
+                "output_state": {
+                  "Name": "minecraft:loom",
+                  "Properties": {
+                    "facing": "south"
+                  }
+                }
+              },
+          
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:light_gray_glazed_terracotta",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:bookshelf"
+                }
+              }
+            ]
+          },
+              
+            
+          
+          
+          
+          
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "north",
+                    "delay": "1",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+              
+              ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "north",
+                    "delay": "2",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "north",
+                    "delay": "3",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "north",
+                    "delay": "4",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+            ]
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+          ,
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "east",
+                    "delay": "1",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+              
+              ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "east",
+                    "delay": "2",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "east",
+                    "delay": "3",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "east"
+                    }
+                  },
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "east",
+                    "delay": "4",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+            ]
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+          ,
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "west",
+                    "delay": "1",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+              
+              ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "west",
+                    "delay": "2",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "west",
+                    "delay": "3",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "west"
+                    }
+                  },
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "west",
+                    "delay": "4",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+            ]
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          ,
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "south",
+                    "delay": "1",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+              
+              ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "south",
+                    "delay": "2",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  },
+                  "probability": 0.25
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "south",
+                    "delay": "3",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              } ,{
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:magenta_glazed_terracotta",
+                    "Properties": {
+                      "facing": "south"
+                    }
+                  },
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:repeater",
+                  "Properties": {
+                    "facing": "south",
+                    "delay": "4",
+                    "locked": "false",
+                    "powered": "false"
+                  }
+                }
+              }
+            ]
+          }
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+          ,
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "1"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "2"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "3"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "4"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "5"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "6"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "7"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "8"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "9"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "10"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "11"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "12"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "13"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "14"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "15"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "16"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "17"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "18"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "19"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "20"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "21"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "22"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "23"
+                  }
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:note_block",
+                  "probability": 0.041666
+                },
+                "output_state": {
+                  "Name": "minecraft:note_block",
+                  "Properties": {
+                    "instrument": "didgeridoo",
+                    "powered": "false",
+                    "note": "24"
+                  }
+                }
+              }
+              
+          
+            ]
+          }
+          
+      
+    ]
+  }
+  

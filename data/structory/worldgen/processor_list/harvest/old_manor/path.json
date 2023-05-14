@@ -1,0 +1,79 @@
+{
+    "processors": [
+
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "block_match",
+              "block": "minecraft:water"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:dirt_path"
+            },
+            "output_state": {
+              "Name": "minecraft:dark_oak_planks"
+              
+            }
+          }
+        ]
+      },
+
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:dirt_path",
+                  "probability": 0.5
+                },
+                "output_state": {
+                  "Name": "minecraft:grass_block"
+                  
+                }
+              }
+            ]
+          },
+          {
+            "processor_type": "minecraft:rule",
+            "rules": [
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:lime_concrete",
+                  "probability": 0.05
+                },
+                "output_state": {
+                  "Name": "minecraft:dirt_path"
+                  
+                }
+              },
+              {
+                "location_predicate": {
+                  "predicate_type": "minecraft:always_true"
+                },
+                "input_predicate": {
+                  "predicate_type": "minecraft:random_block_match",
+                  "block": "minecraft:lime_concrete",
+                  "probability": 1
+                },
+                "output_state": {
+                  "Name": "minecraft:grass_block"
+                  
+                }
+              }
+            ]
+          }
+         
+    ]
+  }
+  

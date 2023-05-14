@@ -1,0 +1,33 @@
+{
+  "name": "structory:harvest/old_manor/roof",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/roof1",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/roof2",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/old_manor/roof3",
+        "processors": "structory:harvest/old_manor/old_manor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

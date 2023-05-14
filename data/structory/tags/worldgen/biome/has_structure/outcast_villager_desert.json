@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:desert",
+        {
+            "id": "terralith:desert_oasis",
+            "required": false
+        },
+        {
+            "id": "terralith:lush_desert",
+            "required": false
+        },
+        {
+            "id": "terralith:sandstone_valley",
+            "required": false
+        }
+    ]
+}

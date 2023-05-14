@@ -1,0 +1,69 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/allay_cage",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/graveyard_large",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/graves",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/well",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/zombie",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+            {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/pumpkins",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "structory:harvest/manor2/amethyst_shrine",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

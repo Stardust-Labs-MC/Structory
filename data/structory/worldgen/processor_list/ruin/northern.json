@@ -1,0 +1,166 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:spruce_leaves"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7",
+              "waterlogged": "false"
+            }
+          }
+        },
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:oak_leaves"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7",
+              "waterlogged": "false"
+            }
+          }
+        },
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:birch_leaves"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:birch_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7",
+              "waterlogged": "false"
+            }
+          }
+        },
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:oak_log"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:oak_log"
+          }
+        },
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:birch_log"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:birch_log"
+          }
+        },
+                {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:spruce_log"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:air"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_log"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobblestone",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobblestone",
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_slab"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            },
+            "probability": 0.15
+          },
+          "output_state": {
+            "Name": "minecraft:andesite_slab"
+          }
+        }
+      ]
+    }
+  ]
+}

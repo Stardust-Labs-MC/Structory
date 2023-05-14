@@ -1,0 +1,14 @@
+{
+  "name": "d",
+  "fallback": "structory:ruin/swamp/mangrove",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "minecraft:mangrove_checked"
+      }
+    }
+  ]
+}

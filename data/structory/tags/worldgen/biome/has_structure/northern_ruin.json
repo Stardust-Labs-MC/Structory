@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "plains",
+    "sunflower_plains",
+    {
+      "id": "terralith:alpine_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:cold_shrubland",
+      "required": false
+    },
+        {
+      "id": "terralith:shrubland",
+      "required": false
+    },
+    {
+      "id": "terralith:highlands",
+      "required": false
+    },
+    {
+      "id": "#c:plains",
+      "required": false
+    },
+        {
+      "id": "#minecraft:is_plains",
+      "required": false
+    }
+  ]
+}

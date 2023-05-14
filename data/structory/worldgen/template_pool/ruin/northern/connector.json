@@ -1,0 +1,51 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "structory:ruin/northern_ruins/connector1",
+        "processors": "structory:ruin/northern",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 4,
+      "element": {
+        "location": "structory:ruin/northern_ruins/connector2",
+        "processors": "structory:ruin/northern",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 3,
+      "element": {
+        "location": "structory:ruin/northern_ruins/connector3",
+        "processors": "structory:ruin/northern",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "location": "structory:ruin/northern_ruins/connector4",
+        "processors": "structory:ruin/northern",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+        {
+      "weight": 2,
+      "element": {
+        "location": "structory:ruin/northern_ruins/connector5",
+        "processors": "structory:ruin/northern",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

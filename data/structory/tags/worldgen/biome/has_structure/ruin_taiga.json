@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "taiga",
+    "snowy_taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    {
+      "id": "terralith:forested_highlands",
+      "required": false
+    },
+    {
+      "id": "terralith:shield",
+      "required": false
+    },
+    {
+      "id": "#c:taiga",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_taiga",
+      "required": false
+    }
+  ]
+}

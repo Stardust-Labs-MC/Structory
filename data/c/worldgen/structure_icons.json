@@ -1,0 +1,47 @@
+{
+    "structory:abandoned_camp": {
+        "item": "minecraft:campfire"
+    },
+    "structory:abandoned_chapel": {
+        "item": "minecraft:bell"
+    },
+    "structory:boat": {
+        "item": "minecraft:dark_oak_boat"
+    },
+    "structory:dense_forest_ruin": {
+        "item": "minecraft:exposed_cut_copper"
+    },
+    "structory:firetower": {
+        "item": "minecraft:flint_and_steel"
+    },
+    "structory:graveyard": {
+        "item": "minecraft:cobweb"
+    },
+    "structory:jungle_ruin": {
+        "item": "minecraft:chiseled_stone_bricks"
+    },
+    "structory:northern_ruin": {
+        "item": "minecraft:mossy_cobblestone_slab"
+    },
+    "structory:old_manor": {
+        "item": "minecraft:carved_pumpkin"
+    },
+    "structory:outcast_villager_desert": {
+        "item": "minecraft:sand"
+    },
+    "structory:outcast_villager_grassy": {
+        "item": "minecraft:grass_block"
+    },
+    "structory:ruin_grassy": {
+        "item": "minecraft:moss_carpet"
+    },
+    "structory:swamp_ruin": {
+        "item": "minecraft:muddy_mangrove_roots"
+    },
+    "structory:taiga_ruin_surface": {
+        "item": "minecraft:podzol"
+    },
+    "structory:taiga_ruin_underground": {
+        "item": "minecraft:hanging_roots"
+    }
+}

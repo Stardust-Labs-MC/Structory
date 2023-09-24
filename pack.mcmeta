@@ -1,6 +1,23 @@
 {
-	"pack": {
-		"pack_format": 15,
-		"description": "Structory"
-	}
+    "pack": {
+        "pack_format": 15,
+        "supported_formats": [
+            10,
+            18
+        ],
+        "description": [
+            {
+                "text": "Structory",
+                "color": "#e878d1"
+            },
+            {
+                "text": "\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    }
 }

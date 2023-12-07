@@ -3,7 +3,7 @@
         "pack_format": 15,
         "supported_formats": [
             10,
-            18
+            26
         ],
         "description": [
             {
@@ -17,6 +17,14 @@
             {
                 "text": "Stardust Labs",
                 "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 26,
+                "directory": "1-20-3-overlay"
             }
         ]
     }
